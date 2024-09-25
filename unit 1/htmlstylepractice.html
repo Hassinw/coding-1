@@ -1,13 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <title>HTML Tutorial</title>
-</head>
+    <title>HTML Tutorial</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch; /* Makes columns stretch to the sides */
+            margin: 0;
+            height: 100vh; /* Full height of the viewport */
+        }
 
+        .mens {
+            background-color: rgb(205, 148, 63);
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative; /* This is needed for absolute positioning of the dropdown */
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 50px; /* Position below the menu */
+            left: 0; /* Align to the left */
+            background-color: rgb(226, 43, 43);
+            display: none; /* Hidden by default */
+            flex-direction: column; /* Make dropdown items stack vertically */
+            width: 100%; /* Match the width of the parent */
+        }
+        .mens:hover .dropdown {
+            display: flex; /* Show dropdown on hover */
+        }
+
+        .dropdown-item  {
+            padding: 10px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .dropdown-item:hover {
+            background-color: rgb(205, 168, 43); /* Change color on hover */
+        }
+
+        nav {
+            background-color: rgb(226, 43, 43);
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .landing-image {
+            background-color: rgb(55, 0, 255);
+            flex: 1; /* This makes the landing image fill the remaining space */
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Centers content */
+            overflow: hidden; /* Hide overflow */
+        }
+
+        img {
+            width: 100%; /* Make image fill the width */
+            height: 100%; /* Make image fill the height */
+            object-fit: cover; /* Cover the area without distortion */
+        }
+    </style>
+</head>
 <body>
     
-    <div style=" background-color:peru;" > upper navbar <div>
-         <div style=" background-color: blueviolet; height: 300px;; " > main navbar <div>
-         <div style="background-color: aqua; height: 300px;;" > landing image <div>
-
+    <div class="mens">
+        Menu
+        <div class="dropdown">
+            <a href="#" class="dropdown-item">Item 1</a>
+            <a href="#" class="dropdown-item">Item 2</a>
+            <a href="#" class="dropdown-item">Item 3</a>
+        </div>
+    </div>
+    <nav>Navigation Bar</nav>
+    <div class="landing-image">
+        <h1 style="position: absolute; color: white;">Landing Image Area</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSletcV9ud9yg0EKTiLITo1FYVsRuH87lzknQ&s" alt="Jason Tatum Photo"> <!-- Added the image URL -->
+    </div>
+</body>
 </html>
