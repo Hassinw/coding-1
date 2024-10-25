@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 
@@ -11,31 +13,41 @@
       padding: 20px;
       font-size: 30px;
       text-align: center;
-      margin: 5px
+      margin: 5px;
     }
 
     .mainContainer {
       display: grid;
       grid-template-columns: auto auto;
     }
+
+    .bottomContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 400px); /* Two columns for options */
+      gap: 5px; /* Gap between the grid items */
+      margin-top: 10px; /* Margin to separate from the main content */
+    }
   </style>
 </head>
 
 <body>
-  <div class="grid-item"> 1</div>
 
   <div class="mainContainer">
     <div class="grid-item" style="width: 1300px; height: 300px;"> main content</div>
-    <div class="grid-item" style="width:500px; height: 300px"> advertisement </div>
+    <div class="grid-item" style="width: 500px; height: 300px"> advertisement </div>
   </div>
 
   <div class="bottomContainer">
-    <div class="grid-item" style="width:400px; height: 300px"> option 1 </div>
-    <div class="grid-item" style="width:400px; heigh: 100px" div>
-      <div class="grid-item" style="width: 400 px; height: 100px"> option 2 </div>
-      <div class="grid-item" style="width:400px; height: 40px ">option 3 </div>
+    <div class="grid-item" style="height: 200px"> option 1 </div>
+    
+    <!-- This div wraps option 2 and 3 to keep them next to each other -->
+    <div style="display: grid; grid-template-columns: 400px auto; width: 200%;">
+      <div class="grid-item" style="height: 200px"> option 2 </div>
+      <div class="grid-item" style="height: 200px"> option 3 </div>
     </div>
-    <div class="grid-item"> footer </div>
+  </div>
+
+  <div class="grid-item"> footer </div>
 </body>
 
 </html>
