@@ -71,9 +71,13 @@ let='' // special usage- data is expected to change.
 const-'' // special usage dasta is expected nit to change
 
 // cmael case = every word after the first is capitilized 
-tiktokaccount= 'moo101'
+
+tiktokAccount= 'moo101'
+
 // snake case = every word is seperated by an underscore 
+
 var tiktok_account_name =' idawgedyouho'
 
 // pascal case = every word is capitilized.
+
 var tiktokaccountname= 'mootmoot38'
