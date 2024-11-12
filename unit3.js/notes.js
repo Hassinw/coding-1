@@ -44,6 +44,7 @@ const password'mootmoot38';
 
 //when we follow the syntax rules, ju8st like in the
 
+// varibls can not start with numbers only letters
 
 // world, we can be understood
 "hello my name is hassin, today there is pretty good weather"
