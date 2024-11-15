@@ -4,7 +4,7 @@
 ll
 //strings are things rapped in ""
 
-single qoute can mean strings
+//single qoute can mean strings
 console.log
 " a person "
 "genral type"
@@ -45,7 +45,7 @@ const password'mootmoot38';
 //when we follow the syntax rules, ju8st like in the
 
 // varibls can not start with numbers only letters
-
+// compariosn is used to 
 // world, we can be understood
 "hello my name is hassin, today there is pretty good weather"
 
