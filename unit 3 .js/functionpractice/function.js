@@ -24,3 +24,11 @@ console.log(classname)
   // we acess or call a function by writing its name.
   examplefunction()
 
+
+  let accountbalance = 1000
+
+  function depositmoney() {
+    let newBalance= accountBalance + 200;
+    document.getElmentById("data"). innerHTML = newBalance;
+  }
+
