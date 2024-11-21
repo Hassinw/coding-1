@@ -27,8 +27,12 @@ console.log(classname)
 
   let accountbalance = 1000
 
-  function depositmoney() {
-    let newBalance= accountBalance + 200;
-    document.getElmentById("data"). innerHTML = newBalance;
+  function depositMoney(DespositAmount) {
+    let newBalance= accountBalance + 10;
+    document.getElmentById("data").innerHTML = newBalance;
+
   }
+  // data that we want to manipulate goes inside of
+  // round brackets
+  // the instructions that we want the data to do go inside the curly brackets 
 
