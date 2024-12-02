@@ -14,7 +14,7 @@ console.log
 123323
 940.00
 7657.876878
-
+// logic.<>,
 
 // nolean
 // booleans represemt data that has a true of false value
