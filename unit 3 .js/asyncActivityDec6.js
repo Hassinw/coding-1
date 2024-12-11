@@ -1,5 +1,14 @@
-function reverse (pineapple) 
+function reverseWord (pineapple){
+    var orginalStr = reverseWord
+    var reversedStr = ""
+    for ( i = 0; i< oringinalstr.lrngth;i**){
+        reversedstr = orginalStr.charAt(i)+ revesedStr4;
 
+    }
+    console.log("reversed string:"+ reversedStr;)
+}
+
+    
 
 
 
@@ -17,11 +26,3 @@ function stateoflandmark (philly){
 
 
 
-
-function pizzaPartyIncitation(eithan) {
-    let guest = 'miah'
-    if (name = guest) {
-        console.log('this name is not on the list');
-    } else {
-        console.log("welcome to the party");
-    }
