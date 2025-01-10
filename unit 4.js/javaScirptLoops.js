@@ -1,4 +1,4 @@
-function collegeTitlrByYear()[
+0function collegeTitlrByYear()[
 if (year == 1) [
     console.log('you are a freshman');
 
