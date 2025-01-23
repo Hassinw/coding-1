@@ -14,3 +14,28 @@ while (x ==2)[
 ]
 
 
+
+
+10 == 10 
+
+10 == 10 && 2 < 4
+
+
+ function timer()[
+    var interval = 60
+    while ( > 0)[
+        console.log('coutdown'+ interval)
+        interval -=1
+    ]
+        document.getElementById('count').innerHTML
+        alert('times up')
+
+
+
+ ]     
+
+
+
+
+
+timer()
