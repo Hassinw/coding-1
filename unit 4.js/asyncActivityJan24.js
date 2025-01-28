@@ -17,3 +17,6 @@ function reversefunction()[
     ListNumber -=1
     ]
 ]
+
+
+// loops 
