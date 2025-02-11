@@ -18,7 +18,7 @@ console.log('you are a senior')
 
 collegeTitlebyYear()
 
-// A kist is a datta type used to group
+// A list is a datta type used to group
 // and irganize other data types into variables
 
 var
