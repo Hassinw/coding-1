@@ -1,0 +1,5 @@
+1. the game mechanics- the game mechanics for my game will be a platformer shooter game.
+2. controls & users input- the player will interact by avoiding lasers from an alien monkey to proceed to the next level
+3. graphicsd and animations- the animations i wpuld like to use is the player running from lasers and dodging.
+4. the game objective is to cleare three levels without getting hit by a laser.
+5.what makes my game unique is the characters and victory animations.
