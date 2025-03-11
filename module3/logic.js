@@ -17,3 +17,5 @@ function playGame(playerChoice) {
     
     document.getElementById("result").textContent = `Computer chose ${computerChoice}. ${result}`;
 }
+var saving 
+var balance
