@@ -5,8 +5,11 @@ var = month 1;
 
 
 Function calculationExpensive(expensive) [
-    if (expensive > 'MonthlySalary' )
-        alert ' you drawn stay down'
+    alert ('your spending to much' amount)
+    if (balance >= amount [
+        balance -=amount;
+        document
+    ])
     else (
          var 
     )
