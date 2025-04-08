@@ -9,20 +9,37 @@
             padding: 10px;
         }
 
+
+        .container{
+            background-image: url("https://static.vecteezy.com/system/resources/previews/020/323/090/non_2x/8-bit-retro-game-background-free-vector.jpg");
+            background-repeat: no-repeat;
+        }
+
         .container>div {
             border: 1px solid black;
             padding: 10px;
             height: 200px;
             width: 200px;
             text-align: center;
+            /* background-color: blue; */
+
+
+        }
+
+        body {
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
         }
     </style>
 </head>
 
-<body>
+<body style="background-color:rgb(230, 176, 203);">
+
+
+    <div style=" width: 500px;"></div>
 
     <div class="container">
-
         <div onclick="testButton()">
             <img className="img" src="https://m.media-amazon.com/images/I/71NEK7BH-UL.jpg" width="50px" height="50px"
                 style="margin: 75px;" />
@@ -30,7 +47,7 @@
 
         <div>
             <img src="https://m.media-amazon.com/images/I/71NEK7BH-UL.jpg" width="50px" height="50px"
-                style="margin: 80px;" />
+                style="margin: 75px;" />
         </div>
 
         <div>
@@ -44,26 +61,32 @@
         </div>
 
         <div>
-            <img src="https://i.etsystatic.com/38119375/r/il/eacb14/5111975196/il_794xN.5111975196_ea6y.jpg"
-                width="50px" height="50px" style="margin:75px;" />
+            <img src="https://i.etsystatic.com/38119375/r/il/eacb14/5111975196/il_794xN.5111975196_ea6y.jpg" width="50px" height="50px" style="margin:75px;" />
         </div>
 
         <div>
             <img src="https://i.etsystatic.com/38119375/r/il/eacb14/5111975196/il_794xN.5111975196_ea6y.jpg"
                 width="50px" height="50px" style="margin:75px; " />
         </div>
+
         <div>
             <img src="https://m.media-amazon.com/images/I/71NEK7BH-UL.jpg" width="50px" height="50px"
-                styles="margin:75px;">
+                style="margin:75px;">
         </div>
-        <img src="https://i.etsystatic.com/38119375/r/il/eacb14/5111975196/il_794xN.5111975196_ea6y.jpg" width="50px" height="50px" style="">
+        <img src="https://i.etsystatic.com/38119375/r/il/eacb14/5111975196/il_794xN.5111975196_ea6y.jpg" width="50px"
+            height="50px" style="margin:75px;">
         <div>
+            <img src="https://m.media-amazon.com/images/I/71NEK7BH-UL.jpg" width="50px" height="50px"
+                style="margin:75px;">
         </div>
-        <div>9</div>
-
-
     </div>
 
+    <div style=" width: 500px; text-align: center;">
+        <div>
+            <h1>Scoreboard</h1>
+
+        </div>
+    </div>
 
     <script src="logic.js"></script>
 </body>
