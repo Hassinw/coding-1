@@ -16,12 +16,10 @@ function testButton() {
   
   console.log("JS mario");
   
-  //  need logic to randomize picture order
+//  Need function to randomize pictures and display them in HTML. 
   
-  // need logic to hife and show images.
+// Need to create function to hide and show images. 
   
-  //   when a user clicks on an image, it should show the picture.
-  // then they get the option to click on another picture.
+// Need function that will take two arguments, picture 1 and 2. if the pictures have the same value it is a match, if they do not, it is not a match and hide the pictures. 
   
-  //  if the pictures have the same value- its a match, else: turn pictures back over.
   
