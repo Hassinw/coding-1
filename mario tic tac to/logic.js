@@ -15,6 +15,20 @@ function testButton() {
   // randomizeImages();
   
   console.log("JS mario");
+
+  imagelist=["star.jpg","mushroom.webp", "mushroom.webp", "mushroom.webp", "mushroom.webp", "mushroom.webp", "mushroom.webp","star.jpg","star.jpg","star.jpg","star.jpg","star.jpg","star.jpg", ]
+
+  imagelist[0]
+
+  function shuffleImages(){
+   newShuffledList =   [Math.floor(imagelist.length * Math.random())];
+
+   console.log(`regular list: `+ imagelist)
+  console.log(`randomized list:` + newShuffledList)
+
+  }
+
+shuffleImages()
   
 //  Need function to randomize pictures and display them in HTML. 
   
