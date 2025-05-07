@@ -1,39 +1,27 @@
-function testButton() {
-    console.log("button works!");
-  }
-  
-  function button() {
-    console.log("button is clicked");
-    alert("button clicked from game ");
-  }
-  
-  function randomizeImages() {
-    var imageNumber = Math.floor(Math.random() * 2);
-    console.log(imageNumber);
-  }
-  
-  // randomizeImages();
-  
-  console.log("JS mario");
+function randomizeImages() {
+  var imageNumber = Math.floor(Math.random() * 2);
+  console.log(imageNumber);
+}
 
-  imagelist=["star.jpg","mushroom.webp", "mushroom.webp", "mushroom.webp", "mushroom.webp", "mushroom.webp", "mushroom.webp","star.jpg","star.jpg","star.jpg","star.jpg","star.jpg","star.jpg", ]
+let mushroom = 'mushroom.webp'
+let star = 'star.png'
 
-  imagelist[0]
+console.log("JS mario");
 
-  function shuffleImages(){
-   newShuffledList =   [Math.floor(imagelist.length * Math.random())];
+let images = [mushroom, mushroom,mushroom,mushroom,mushroom,mushroom, star, star,star,star,star,star]
+let imagelist = images.length;
 
-   console.log(`regular list: `+ imagelist)
-  console.log(`randomized list:` + newShuffledList)
+console.log(imagelist)
 
-  }
+function shuffleImages() {
+  console.log('function called')
+  let i = 0
+  while (i < 12) {
+    
+    const randomIndex = Math.floor(Math.random() * images[i]);
+    console.log(`this is: ${randomIndex}`)
+    i++;
+  }    
+};
 
 shuffleImages()
-  
-//  Need function to randomize pictures and display them in HTML. 
-  
-// Need to create function to hide and show images. 
-  
-// Need function that will take two arguments, picture 1 and 2. if the pictures have the same value it is a match, if they do not, it is not a match and hide the pictures. 
-  
-  
