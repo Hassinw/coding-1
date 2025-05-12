@@ -1,0 +1,11 @@
+[
+    {
+        "image":"./assets/marioMushroom.jpg",
+        "name":"mushroom"
+    },
+
+    {
+        "image":"./assets/star.jpg",
+        "name":"star"
+    }
+]
