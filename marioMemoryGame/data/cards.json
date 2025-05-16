@@ -1,11 +1,28 @@
 [
     {
-        "image":"./assets/marioMushroom.jpg",
-        "name":"mushroom"
+        "image": "./assets/marioMushroom.jpg",
+        "name": "mushroom"
     },
-
     {
-        "image":"./assets/star.jpg",
-        "name":"star"
+        "image": "./assets/star.jpg",
+        "name": "star"
+    },
+    {
+        "image": "./assets/bomb.jpg",
+        "name": "bomb"
+    },
+    {
+         "image": "./assets/yoshi.jpg",
+        "name": "yoshi"
+    },
+    {
+        "image": "./assets/peach.jpg",
+        "name": "peach"
+    },
+    {
+        "image": "./assets/luma.jpg",
+        "name": "luma"
     }
+    
+
 ]
